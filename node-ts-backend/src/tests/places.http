@@ -1,0 +1,9 @@
+GET https://maps.googleapis.com/maps/api/place/findplacefromtext/json?input=%2B16502530000&inputtype=phonenumber&key=AIzaSyCHtYYV35BG_vTnx1vW-KRvou9vhoQfEV4 HTTP/1.1
+###
+
+GET https://maps.googleapis.com/maps/api/place/findplacefromtext/json?inputtext=Museum%20of%20Contemporary%20Art%20Australia&inputtype=textquery&fields=place_id,formatted_address,name&key=AIzaSyCHtYYV35BG_vTnx1vW-KRvou9vhoQfEV4 HTTP/1.1
+###
+
+
+GET http://localhost:8080/places/Museum/80/90 HTTP/1.1
+###
